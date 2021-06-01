@@ -1,0 +1,88 @@
+<html>
+<head>
+    <title> Quiz in JavaScript  </title> 
+    <head>
+        <script src="nothing.js"></script>
+        <style>
+
+            body{
+                text-align: center;
+                font-size: 17px;
+                background-color: black;
+                color: gold;
+                font-family: cursive;
+            }
+            h1{
+                color: gold ;
+                font-size: 17px;
+                font-family: cursive;
+                 text-align: center;
+                  
+            }
+            #d{
+                font-size: 20px;
+            }
+            .h1{
+                height: 26px;
+                width: 86px;
+            }
+            .h1:hover{
+                background-color: black;
+                color: cyan;
+                font-family: cursive;
+                box-shadow: cyan 8px;
+                transition: 1s;
+            }
+            /* label:hover{
+                color: cyan;
+                text-shadow: white 19px;
+                transition: 6s;
+                font-weight: 1000;
+                height: 39px;
+                width: 39px;
+
+            } */
+                
+        </style>
+    </head>
+</head>
+<body>
+  
+    <h1> If You Want To Select Option Click on Correct Option's White Hole </h1> 
+    <h1> If you want to see your score scrool down </h1>   
+        <p> 1.Who is the captain cool in IPL ??  </p>
+    <label>   <input type="radio"   name="q1"> Rohit Sharma  </label>                    <br>
+    <label>   <input type="radio"   name="q1"> Virat Kohli  </label>             <br>
+    <label>   <input type="radio"   name="q1"> Rishab Pant  </label>                 <br>
+    <label>   <input type="radio"   name="q1" class="answer">   Mahendra Singh Dhoni  </label>             <br>
+
+    <p> 2. Who make the computer ??  </p>
+    <label>   <input type="radio"   name="q2"> Rakesh Sharma  </label>                    <br>
+    <label>   <input type="radio"   name="q2">  Charles Decanes  </label>             <br>                     
+    <label>   <input type="radio"   name="q2">  Aryabhatta  </label>                 <br>
+    <label>   <input type="radio"   name="q2"   class="answer"> Charles Babbage  </label>             <br>
+
+    <p> 3. In which city the first case of corona  ??  </p>
+    <label>   <input type="radio"   name="q3">  Delhi  </label>                    <br>
+    <label>   <input type="radio"   name="q3">  Mumbai </label>             <br>
+    <label>   <input type="radio"   name="q3">  Goa  </label>                 <br>
+    <label>   <input type="radio"   name="q3"  class="answer">  Kerla   </label>             <br>
+
+    <p> 4. Who is the richest person in the world  </p>
+    <label>   <input type="radio"   name="q4"> Mukesh Ambani   </label>                    <br>
+    <label>   <input type="radio"   name="q4"> Billgates  </label>             <br>
+    <label>   <input type="radio"   name="q4"> Carlos Silm  </label>                 <br>
+    <label>   <input type="radio"   name="q4"  class="answer">  Jeff Bezos  </label>             <br>
+
+    <p> 5. on which date corona enters in India ??  </p>
+    <label>   <input type="radio"   name="q5">  31st January 2020  </label>                    <br>
+    <label>   <input type="radio"   name="q5">  19th Febuary 2021  </label>             <br>
+    <label>   <input type="radio"   name="q5">  31st December 2018   </label>                 <br>
+    <label>   <input type="radio"   name="q5"  class="answer"> 27th January 2020  </label>             <br><br>
+
+    <button onclick="calculate()" class="h1"> Submit  </button>
+   
+    <h1 id="d"></h1>
+
+</body>
+</html>
